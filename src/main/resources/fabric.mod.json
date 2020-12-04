@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "licensepercentage",
+	"version": "${version}",
+	"name": "License Percentage",
+	"description": "Adds a license percentage to the title screen.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/License-Percentage#readme",
+		"issues": "https://github.com/haykam821/License-Percentage/issues"
+	},
+	"environment": "client",
+	"mixins": [
+		"licensepercentage.mixin.json"
+	],
+	"license": "MIT",
+	"icon": "assets/licensepercentage/icon.png",
+	"depends": {
+		"fabricloader": ">=0.4.0"
+	}
+}
